@@ -1,0 +1,31 @@
+﻿<html>
+<head>
+    <link href="Content/leaflet.css" rel="stylesheet">
+    <link href="Content/site.css" rel="stylesheet">
+</head>
+
+
+<body>
+<div id="map"></div>
+
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/leaflet.js"></script>
+    <script src="Scripts/d3.js"></script>
+    <script src="Scripts/leaflet-heat.js"></script>
+    <script src="Scripts/Routes.js"></script>
+    <script src="Scripts/inrix.js"></script>
+    <script src="Scripts/leaflet.ajax.js"></script>
+
+    <script src="http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js"></script>
+
+    <script>
+        $(document)
+            .ready(function() {
+                inrix = new Inrix(document.getElementById('map'));
+            });
+    </script>
+
+</body>
+
+
+</html>

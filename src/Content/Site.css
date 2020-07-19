@@ -1,0 +1,121 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+html, body, #container {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+body {
+  /* height of .navbar, customize with @navbar-height variable */
+  padding-top: 50px;
+}
+.navbar {
+  min-height: 50px;
+}
+#sidebar {
+    float: left;
+    height: 100%;
+    max-width: 100%;
+    width: 379px;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-family: Arial,sans-serif;
+}
+
+#sidebar > h3 {
+    margin: 4px;
+    font-size: 1.5em;
+    color: #1e90ff;
+}
+
+#sidebar > h4 {
+    margin: 4px;
+    padding-left: 2em;
+    font-size: 0.8em;
+}
+
+#map {
+  height: 100%;
+  width: auto;
+}
+.sidebar-wrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+
+/* gauge */
+
+.chart-gauge {
+    width: 300px;
+    margin: 6px auto;
+}
+
+.chart-color1 {
+    fill: #009F95;
+}
+
+.chart-color2 {
+    fill: #17A8E1;
+}
+
+.chart-color3 {
+    fill: #1274BE;
+}
+
+.chart-color4 {
+    fill: #2C3791;
+}
+
+.needle,
+.needle-center {
+    fill: #464A4F;
+}
+
+
+#description {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 260px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    z-index: 10000
+}
+
+#rrr {
+    position: relative;
+    left: 68px;
+    top: 180px;
+    border-color: #17a8e1
+}
+
+/**, *::before, *::after {
+    box-sizing: content-box;    
+}*/
+
+.zombie {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
